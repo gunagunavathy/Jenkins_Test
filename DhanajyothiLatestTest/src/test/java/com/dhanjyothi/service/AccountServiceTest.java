@@ -81,7 +81,7 @@ public class AccountServiceTest {
 		Account accountObj = accountService.getAccountDetails(user.getUserId(), account.getAccountType());
 		System.out.println("Account ::" + accountObj);
 
-		Assert.assertEquals(123, accountObj.getAccountBalance());
+		Assert.assertEquals(account.getAccountBalance(), accountObj.getAccountBalance());
 		Assert.assertEquals(account.getAccountType(), accountObj.getAccountType());
 		Assert.assertEquals(account.getAccountId(), accountObj.getAccountId());
 		Assert.assertEquals(account.getAccountCreatedDate(), accountObj.getAccountCreatedDate());
