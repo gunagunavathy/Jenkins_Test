@@ -11,7 +11,7 @@
 		<java.source.version>1.8</java.source.version>
 		<java.target.version>1.8</java.target.version>
 
-		<spring.version>5.0.0.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<hibernate.version>5.2.11.Final</hibernate.version>
 		<hibernate.validator>5.4.1.Final</hibernate.validator>
 		<jstl.version>1.2.1</jstl.version>
